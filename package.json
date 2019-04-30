@@ -4,22 +4,26 @@
   "description": "Event plugin for beautywe",
   "main": "dist/event.js",
   "scripts": {
-    "test": "node_modules/.bin/nyc ava test/**/*.test.js",
-    "test-report": "node_modules/.bin/nyc report --reporter=html",
-    "build-pro": "rm -rf ./dist && node_modules/.bin/babel src -d dist",
-    "build-watch": "node_modules/.bin/babel src --watch -d dist",
-    "code-check": "node_modules/.bin/eslint src/**",
-    "code-fix": "node_modules/.bin/eslint --fix src/**",
+    "test": "nyc ava test/**/*.test.js",
+    "test:report": "nyc report --reporter=html",
+    "test:coverage": "nyc --reporter=html ava",
+    "build:pro": "rm -rf ./dist && node_modules/.bin/babel src -d dist",
+    "build:watch": "babel src --watch -d dist",
+    "code-check": "eslint src/**",
+    "code-fix": "eslint --fix src/**",
     "lint": "git diff --cached --name-only | grep -E '\\.(js|jsx)$' | xargs eslint",
     "commitmsg": "validate-commit-msg",
     "commit": "git cz"
   },
+  "keywords": [
+    "beautywe",
+    "beautywe-plugin"
+  ],
+  "author": "JerryC8080 (huangjerryc@gmail.com)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/beautywe/beautywe-plugin-event.git"
   },
-  "keywords": [],
-  "author": "JerryC (huangjerryc@gmail.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/beautywe/beautywe-plugin-event/issues"

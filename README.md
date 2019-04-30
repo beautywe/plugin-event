@@ -1,8 +1,9 @@
 
 # 介绍
 
-## Version
-[![NPM Version](https://img.shields.io/npm/v/@beautywe/plugin-event.svg)](https://www.npmjs.com/package/@beautywe/plugin-event) [![NPM Downloads](https://img.shields.io/npm/dm/@beautywe/plugin-event.svg)](https://www.npmjs.com/package/@beautywe/plugin-event) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@beautywe/plugin-event.svg)
+[![CircleCI](https://circleci.com/gh/beautywe/beautywe-plugin-event/tree/master.svg?style=svg)](https://circleci.com/gh/beautywe/beautywe-plugin-event/tree/master)
+
+[![NPM Version](https://img.shields.io/npm/v/@beautywe/plugin-event.svg)](https://www.npmjs.com/package/@beautywe/plugin-event) [![NPM Downloads](https://img.shields.io/npm/dm/@beautywe/plugin-event.svg)](https://www.npmjs.com/package/@beautywe/plugin-event) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@beautywe/plugin-event.svg)[![Coverage Status](https://coveralls.io/repos/github/beautywe/beautywe-plugin-event/badge.svg)](https://coveralls.io/github/beautywe/beautywe-plugin-event)
 
 ## Unit Test Coverage
 
