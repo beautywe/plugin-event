@@ -4,17 +4,7 @@
 [![CircleCI](https://circleci.com/gh/beautywe/beautywe-plugin-event/tree/master.svg?style=svg)](https://circleci.com/gh/beautywe/beautywe-plugin-event/tree/master)
 
 [![NPM Version](https://img.shields.io/npm/v/@beautywe/plugin-event.svg)](https://www.npmjs.com/package/@beautywe/plugin-event) [![NPM Downloads](https://img.shields.io/npm/dm/@beautywe/plugin-event.svg)](https://www.npmjs.com/package/@beautywe/plugin-event) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@beautywe/plugin-event.svg)[![Coverage Status](https://coveralls.io/repos/github/beautywe/beautywe-plugin-event/badge.svg)](https://coveralls.io/github/beautywe/beautywe-plugin-event)
-
-## Unit Test Coverage
-
-```
-----------|----------|----------|----------|----------|-------------------|
-File      |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
-----------|----------|----------|----------|----------|-------------------|
-All files |    66.67 |    60.66 |      100 |    77.63 |                   |
- event.js |    66.67 |    60.66 |      100 |    77.63 |... 49,109,110,122 |
-----------|----------|----------|----------|----------|-------------------|
-```
+`
 
 ## Feature
 1. 发布/订阅
