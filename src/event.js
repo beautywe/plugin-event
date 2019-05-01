@@ -112,6 +112,7 @@ const Events = {
         names = name ? [name] : Object.keys(this._events);
         for (i = 0, l = names.length; i < l; i++) {
             name = names[i];
+            // eslint-disable-next-line no-cond-assign
             if (events = this._events[name]) {
                 this._events[name] = retain = [];
                 if (callback || context) {
