@@ -1,6 +1,6 @@
 {
   "name": "@beautywe/plugin-event",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Event plugin for beautywe",
   "main": "dist/event.js",
   "scripts": {
