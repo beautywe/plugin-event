@@ -1,10 +1,11 @@
 
 # 介绍
 
-[![CircleCI](https://circleci.com/gh/beautywe/beautywe-plugin-event/tree/master.svg?style=svg)](https://circleci.com/gh/beautywe/beautywe-plugin-event/tree/master)
-
-[![NPM Version](https://img.shields.io/npm/v/@beautywe/plugin-event.svg)](https://www.npmjs.com/package/@beautywe/plugin-event) [![NPM Downloads](https://img.shields.io/npm/dm/@beautywe/plugin-event.svg)](https://www.npmjs.com/package/@beautywe/plugin-event) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@beautywe/plugin-event.svg)[![Coverage Status](https://coveralls.io/repos/github/beautywe/beautywe-plugin-event/badge.svg)](https://coveralls.io/github/beautywe/beautywe-plugin-event)
-`
+![CircleCI branch](https://img.shields.io/circleci/project/github/beautywe/beautywe-plugin-event/master.svg) 
+[![NPM Version](https://img.shields.io/npm/v/@beautywe/plugin-event.svg)](https://www.npmjs.com/package/@beautywe/plugin-event) 
+[![NPM Downloads](https://img.shields.io/npm/dm/@beautywe/plugin-event.svg)](https://www.npmjs.com/package/@beautywe/plugin-event) 
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/@beautywe/plugin-event.svg) 
+[![Coverage Status](https://coveralls.io/repos/github/beautywe/beautywe-plugin-event/badge.svg)](https://coveralls.io/github/beautywe/beautywe-plugin-event)
 
 ## Feature
 1. 发布/订阅
@@ -83,3 +84,8 @@ app.event.trigger('hello');
 根据 event 的实现原理，如果宿主实例被销毁了，事件队列同样会被销毁。
 
 例如在 A 页面引入了 event，并且注册了很多事件，如果 A 页面被微信小程序环境销毁了，那么事件队列也会被销毁。
+
+# License
+This project is licensed under the [MIT license](LICENSE).
+
+Copyright (c) JerryC Huang (huangjerryc@gmail.com)
